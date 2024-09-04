@@ -1,25 +1,33 @@
 
+
 # Coin Game Starter
 
 A fun, interactive game where the player uses the arrow keys to move an avatar and collect coins. Each time the avatar collects a coin, the score increases, and the coin moves to a new random position on the screen.
+
+You can play the game live here: [Coin Game - DOM Manipulation](https://iheathers.github.io/Coin-Game-DOM-Manipulation/)
 
 ![Gameplay Screenshot](https://media.giphy.com/media/Hx13ouuEzEff1GbcpJ/giphy.gif)
 
 ## How to Play
 
-1. Use the arrow keys to move the avatar.
-   - **Arrow Up**: Move the avatar up.
-   - **Arrow Down**: Move the avatar down.
-   - **Arrow Right**: Move the avatar to the right.
-   - **Arrow Left**: Move the avatar to the left.
+1. **Desktop**:
+   - Use the arrow keys to move the avatar.
+     - **Arrow Up**: Move the avatar up.
+     - **Arrow Down**: Move the avatar down.
+     - **Arrow Right**: Move the avatar to the right.
+     - **Arrow Left**: Move the avatar to the left.
    
-2. When the avatar touches the coin, the score increases by one point, and the coin moves to a new random location.
+2. **Mobile**:
+   - Swipe in the direction you want to move the avatar.
+   - The avatar will follow the swipe direction (up, down, left, right).
 
-3. Try to collect as many coins as possible!
+3. When the avatar touches the coin, the score increases by one point, and the coin moves to a new random location.
+
+4. Try to collect as many coins as possible!
 
 ## Features
 
-- Responsive avatar movement with keyboard arrow keys.
+- Responsive avatar movement with keyboard arrow keys and touch events.
 - Random coin positioning when the coin is collected.
 - Keeps track of and displays the score.
 
@@ -49,3 +57,11 @@ A fun, interactive game where the player uses the arrow keys to move an avatar a
 - Add more coins or different collectibles.
 - Implement sound effects when collecting coins.
 - Create levels or challenges with increasing difficulty.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Feel free to further update the repository link or make other adjustments as necessary!
