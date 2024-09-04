@@ -1,23 +1,38 @@
-body{
+/* Prevent overflow and ensure everything is confined to the screen */
+body {
+	margin: 0;
 	background-color: #e8e8e8;
-}
-
-
-#avatar {
-	width: 200px;
+	overflow: hidden; /* Prevent screen overflow */
+  }
+  
+  /* Avatar style: ensure it stays within boundaries and has proper positioning */
+  #avatar {
+	width: 80px; /* Reduced size to ensure it fits within screen limits */
 	position: absolute;
 	top: 25px;
 	left: 10px;
-}
+	z-index: 2; /* Ensure avatar is always on top of the coin */
+  }
 
-
-#coin {
-	width: 50px;	
+  @media (min-width: 768px) {
+	#avatar{
+		width: 150px;
+	}
+  }
+  
+  /* Coin style: ensure proper size and round shape */
+  #coin {
+	width: 50px;
 	border-radius: 50%;
 	z-index: 1;
-	position: relative;
-}
-
-h3{
+	position: absolute; /* Change to absolute positioning for flexibility */
+	top: 100px; /* Initial top position */
+	left: 100px; /* Initial left position */
+  }
+  
+  /* Score heading style */
+  h3 {
 	text-align: center;
-}
+	
+  }
+  
