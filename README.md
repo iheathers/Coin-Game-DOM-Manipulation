@@ -61,7 +61,3 @@ You can play the game live here: [Coin Game - DOM Manipulation](https://iheather
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
-
-Feel free to further update the repository link or make other adjustments as necessary!
